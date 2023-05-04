@@ -1,14 +1,16 @@
+import { useState } from 'react';
 import TodoForm from './components/Todos/TodoForm';
 import TodoList from './components/Todos/TodoList';
-
 import './App.css';
 
 function App() {
+  const [todos, setTodos] = useState(['first Todo', 'second Todo']);
+
   return (
     <div className="App">
       <h1>Todo App</h1>
       <TodoForm/>
-      <TodoList/>
+      <TodoList todos={todos}/>
     </div>
   );
 }
