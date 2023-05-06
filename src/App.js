@@ -4,7 +4,7 @@ import TodoList from './components/Todos/TodoList';
 import './App.css';
 
 function App() {
-  const [todos, setTodos] = useState(['first Todo', 'second Todo']);
+  const [todos, setTodos] = useState([]);
 
   const addTodoHandler = (text) => {
     setTodos([...todos, text]);
