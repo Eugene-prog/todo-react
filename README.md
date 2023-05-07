@@ -1,5 +1,9 @@
 # React Project for the React Course
 
+## Todo project v1 from React Course
+
+![Image project](https://github.com/Eugene-prog/todo-react/blob/master/TodoApp.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
